@@ -31,9 +31,7 @@ html, body {
       background-position: center center;
       background-repeat: no-repeat;
       background-size:cover;
-      background-color: #4d4d4d67;
-      mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%);
-      -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.50) 100%);
+      background-color: #ffffff;
       display: table;
       height: 70vh;
       position: relative;
@@ -60,9 +58,33 @@ html, body {
       background-repeat: no-repeat;
       background-size: cover;
       background-position-y: 50px;
-      background-color: #4d4d4d67;
-      mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%);
-      -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%);
+      background-color: #ffffff;
+      display: table;
+      height: 60vh;
+      position: relative;
+      width: 100%;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+    }
+    .text-vcenter {
+      display: block;
+      position: static;
+      text-align: center;
+    }
+    .service-height{
+      padding-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 720px){
+    #home{
+      background-image: url(/images/Service.jpg);
+      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: 50px;
+      background-color: #ffffff;
       display: table;
       height: 40vh;
       position: relative;
