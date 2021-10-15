@@ -26,15 +26,16 @@ html, body {
   /* additional sections */
   @media only screen and (min-width: 1180px){
     #home{
-      background-image: url(/images/coopersanitech.jpg);
+      background-image: url(/images/Service.png);
       background-attachment: fixed;
-      background-position: fill;
+      background-position: center center;
       background-repeat: no-repeat;
-      background-size: contain;
-      background-position-y: 50px;
+      background-size:cover;
       background-color: #4d4d4d67;
+      mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%);
+      -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.50) 100%);
       display: table;
-      height: 80vh;
+      height: 70vh;
       position: relative;
       width: 100%;
       -webkit-background-size: contain;
@@ -43,27 +44,27 @@ html, body {
     }
     .text-vcenter {
       display: block;
-      position: relative;
+      position: static;
       text-align: center;
-      top: 30vw;
     }
     .service-height{
-      height: 400px;
-      padding-top: 20px;
+      padding-top: 5px;
     }
   }
 
   @media only screen and (max-width: 1180px){
     #home{
-      background-image: url(/images/coopersanitech.jpg);
+      background-image: url(/images/Service.jpg);
       background-attachment: fixed;
-      background-position: fill;
+      background-position: center center;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position-y: 50px;
       background-color: #4d4d4d67;
+      mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%);
+      -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.80) 100%);
       display: table;
-      height: 70vw;
+      height: 40vh;
       position: relative;
       width: 100%;
       -webkit-background-size: contain;
@@ -72,12 +73,10 @@ html, body {
     }
     .text-vcenter {
       display: block;
-      position: relative;
+      position: static;
       text-align: center;
-      top: 45vw;
     }
     .service-height{
-      height: 480px;
       padding-top: 20px;
     }
   }
@@ -97,14 +96,14 @@ html, body {
     width: 140px;
   }
   #information {
-    background-image: url(/images/coopersanitech.jpg);
+    background-image: url(/images/Service.jpg);
     background-attachment: fixed;
-    background-position: fill;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #4d4d4d67;
+    background-color: #ffffff67;
     display: table;
-    height: 60%;
+    height: 80%;
     position: relative;
     width: 100%;
     -webkit-background-size: contain;
@@ -140,4 +139,9 @@ html, body {
   .captcha{
     display: block;
     margin-top: 20px;
+  }
+
+  .banner {
+    font-size: 4rem;
+    font-weight: 600;
   }
